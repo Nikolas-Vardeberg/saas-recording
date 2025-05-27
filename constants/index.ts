@@ -46,3 +46,73 @@ export const DEFAULT_RECORDING_CONFIG = {
   audioBitsPerSecond: 128000,
   videoBitsPerSecond: 2500000,
 };
+
+interface VideoData {
+    id: string;
+    title: string;
+    thumbnail: string;
+    createdAt: Date;
+    userImg: string;
+    username: string;
+    views: number;
+    visibility: Visibility;
+    duration: number;
+}
+
+export const dummyData: VideoData[] = [
+    {
+        id: "1",
+        title: "SnapChat Message",
+        thumbnail: "/assets/images/video1.png",
+        createdAt: new Date(),
+        userImg: "/assets/images/jason.png",
+        username: "Jason",
+        views: 10,
+        visibility: "public",
+        duration: 165
+    },
+    {
+        id: "1",
+        title: "SnapChat Message",
+        thumbnail: "/assets/images/video1.png",
+        createdAt: new Date(),
+        userImg: "/assets/images/jason.png",
+        username: "Jason",
+        views: 10,
+        visibility: "public",
+        duration: 165
+    },
+    {
+        id: "1",
+        title: "SnapChat Message",
+        thumbnail: "/assets/images/video1.png",
+        createdAt: new Date(),
+        userImg: "/assets/images/jason.png",
+        username: "Jason",
+        views: 10,
+        visibility: "public",
+        duration: 165
+    },
+    {
+        id: "1",
+        title: "SnapChat Message",
+        thumbnail: "/assets/images/video1.png",
+        createdAt: new Date(),
+        userImg: "/assets/images/jason.png",
+        username: "Jason",
+        views: 10,
+        visibility: "public",
+        duration: 165
+    },
+    {
+        id: "1",
+        title: "SnapChat Message",
+        thumbnail: "/assets/images/video1.png",
+        createdAt: new Date(),
+        userImg: "/assets/images/jason.png",
+        username: "Jason",
+        views: 10,
+        visibility: "public",
+        duration: 165
+    }
+]
