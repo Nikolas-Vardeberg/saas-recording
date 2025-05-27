@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Nikolas-Vardeberg---Rek-s-workspace-3bheg5.us-east-1.xata.sh/db/snapcast",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
